@@ -1,7 +1,4 @@
-requests==2.24.0
-rsa==4.6
-Image==1.5.32
-PyQt5==5.15.0
-PySide==1.2.4
-PySide2==5.15.0
-PySimpleGUI==4.28.0
+requests
+rsa
+Image
+PySimpleGUI
