@@ -5,7 +5,7 @@ import checkin
 from threading import Thread
 import shlex
 import config
-
+import webbrowser
 
 def Cloud189SignGUI():
     utils.load_setting()
@@ -16,7 +16,7 @@ def Cloud189SignGUI():
         [sg.T('密码,多个密码用#号分割:', font=config.default_font), sg.Input(default_text=config.password, size=(40, 1), key='password')],
         [sg.Button('签到', key='Sign')],
         [sg.Output(size=(90, 20), font=config.default_font)],
-        [sg.Button('退出', key='Exit', button_color=('white', 'firebrick3'))]
+        [sg.Button('退出', key='Exit', button_color=('white', 'firebrick3')), sg.Button('源码', key='home_page',button_color=('white', 'springgreen4'))]
     ]
 
     window = sg.Window('天翼云签到', layout,
@@ -58,6 +58,8 @@ def Cloud189SignGUI():
                             thread_download.start()
                     except Exception as e:
                         print(e)
+        elif event == 'home_page':
+            webbrowser.open_new('https://github.com/xiaogouxo/cloud189-signer')
     window.close()
 
 
