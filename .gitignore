@@ -1,0 +1,8 @@
+*.DS_Store
+*.pyc
+.idea
+/dist
+/build
+/.eggs
+cloud189-singer.spec
+setting.cfg
