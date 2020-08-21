@@ -7,6 +7,7 @@
 
 ## Release下载
  * windows x64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-singer_windows_x64.zip)
+ * mac 64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-singer-darwin_amd64.zip)
 
 ## 自行编译
 
