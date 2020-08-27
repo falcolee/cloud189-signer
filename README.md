@@ -7,8 +7,8 @@
  * 改编自github自动签到脚本 [cloud189-action](https://github.com/t00t00-crypto/cloud189-action)
 
 ## 应用下载
- * windows x64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-singer_windows_x64.zip)
- * mac 64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-singer-darwin_amd64.zip)
+ * windows x64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-signer_windows_x64.zip)
+ * mac 64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-signer-darwin_osx_amd64.zip)
  * 百度云下载
 > 链接:https://pan.baidu.com/s/179HTUjbVvzOTAmUpJ8H3VA  密码:tebm
 
