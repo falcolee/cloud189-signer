@@ -1,13 +1,16 @@
 # 🎉 天翼云盘签到 + 抽奖 APP
-> 采用PySimpleGUI制作的一个天翼云盘签到 + 抽奖 GUI
+> 采用PySimpleGUI制作的一个天翼云盘签到 + 抽奖 GUI工具
 
 ## App打包说明
+ * 10M左右mini体积
  * 本机打包环境python 3.8.3
  * 改编自github自动签到脚本 [cloud189-action](https://github.com/t00t00-crypto/cloud189-action)
 
-## Release下载
+## 应用下载
  * windows x64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-singer_windows_x64.zip)
  * mac 64位版 [下载](https://github.com/xiaogouxo/cloud189-signer/releases/download/v1.0/cloud189-singer-darwin_amd64.zip)
+ * 百度云下载
+> 链接:https://pan.baidu.com/s/179HTUjbVvzOTAmUpJ8H3VA  密码:tebm
 
 ## 自行编译
 
@@ -36,5 +39,3 @@
 
 打包命令
 > pyinstaller -F -w -i app.icns cloud189signer.py
-
-
